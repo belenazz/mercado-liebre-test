@@ -1,0 +1,490 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto' ;
+    }
+
+header {
+    width: 100vw;
+}
+
+.cabecera {
+    background-color:#EAC926; 
+    
+}
+
+.cabecera div .busqueda {
+
+    width: 50%;
+    
+} 
+
+.logo-ml{
+    width: 50%;
+}
+body {
+    font-family: 'Roboto';
+    background-color: #ebebeb ; 
+   
+
+}
+
+
+.lupa{
+    
+    background-color: #ebebeb;
+    
+}
+
+.compra-en-cuotas{
+    color: black;
+    width: 100%;
+    text-align: center
+}
+
+
+.busqueda-gral {
+    margin: 10px 23px;
+}
+
+.cabecera .busqueda-gral  p {  
+    text-align: center;
+    font-size: 16px;
+    color: black;   
+    text-decoration: none;
+    width: 100%;
+    margin: center ;
+}
+
+.cabecera .busqueda-gral a {
+    text-decoration: none;
+}
+
+section.barradebusqueda {
+    width: 50%;
+    margin: auto;
+    font-size: 18px;
+    border-radius: 4%;
+        }
+
+
+
+.create-form {
+    padding:  15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.listas ul li a {
+    
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    
+    
+}
+
+
+.listas ul {
+    list-style: none;
+    padding: 3px;
+
+    
+}
+
+.burger-menu {
+    color: white;
+    margin: center;
+    padding: 25px;
+    display: block;
+    text-align: center;
+    
+}
+.fa-bars:before{
+    background: #1259C3;
+    padding:15px 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.registro-y-login {
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+nav ul {
+    display: none;
+}
+
+
+
+.banner img {
+    width: 100%;
+}
+
+/* MAIN*/
+main {
+    width: 90%;
+    margin: auto ;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    
+}
+main section article {
+    margin-bottom: 10px;
+    background-color: white;
+    width: 100%;
+    
+
+}
+
+
+
+main section article img {
+    width: 100%;
+}
+
+main section article article {
+    background-color: white;
+    border-top: #ebebeb 1px solid;
+    padding: 15px;
+    box-sizing: border-box;
+    
+}
+
+main section article article div{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+div .precio {
+width: 30% ;
+order: -1;
+}
+
+div .descuento {
+
+width: 70%;
+
+}
+
+.camion {
+color: #39b54a;
+display: block;
+font-size: 16px;
+padding: 5px;
+width: 30px;
+height: 30px;
+border: 1px solid #39b54a;
+background-color: #FFF;
+border-radius: 50%;
+position: relative;
+right: -190px;
+top: -30px;
+
+}
+
+
+
+
+section h3.ultima-visita, section h3.Ofertas   {
+font-size: 24px;
+padding: 15px 0px;
+}
+
+ /*{
+    font-size: 24px;
+} */
+
+.precio {
+    font-size: 18px;
+    margin: 0px;
+    color: #666 ;
+    
+
+}
+
+.descuento {
+    font-size: 16px;
+    color: #39b54a;
+    margin: 0px;
+} 
+
+
+
+.descripcion {
+    font-size: 16px;
+    color: #666;
+    
+}
+/* FOOTER*/
+
+footer {
+    background-color: white;
+}
+
+footer article {
+    text-align: center;
+    margin: 15px ;
+    margin-bottom: 50px;
+
+    
+}
+
+article p.emoticon-footer {
+    font-size: 2em;
+    color: #1259C3 ;
+    margin-bottom: 5px;
+}
+
+footer article h3 {
+    font-size: 20px ;
+    text-align: center ;
+    color: #666;
+    margin: 5px;
+}
+
+footer article p {
+    text-align: center ;
+    color: #666;
+    margin: 5px;
+    font-size: 12px;
+
+}
+
+footer .copyright {
+    color: #666 ;
+    margin-left: 10px;
+    padding: 0px 0px 10px;
+    font-size: 12px;
+}
+
+@media (min-width: 361px) {
+
+    .busqueda-gral {
+    margin: 10px 5px;
+}
+
+    .logo-y-lupa {
+        display: flex;
+        align-items:flex-start ;
+        
+    }
+    .barradebusqueda {
+        align-self: center;
+        width:50%
+    }
+
+    .barradebusqueda input.busqueda {
+        width: 90%;
+    }
+    .barradebusqueda .logo-ml {
+        width: 50%;
+        flex-grow: 1;
+        
+        
+    }
+
+    .descripcion {
+        display: none ;
+    } 
+}
+
+
+
+/*  code review del header
+ */
+
+/*  VERSION tablet    */
+
+@media (min-width: 769px) {
+
+       .logo-y-lupa {
+        width: 60%;
+        justify-content: space-between;
+       
+    }
+
+    .busqueda-gral  div.compra-en-cuotas {
+        width: 30%;
+               
+    }
+.barradebusqueda {
+    width: 40%;
+}
+   
+    
+.busqueda-gral {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+ 
+
+    div.compra-en-cuotas {
+        background-color: #EAC926;
+    }
+   
+
+    
+
+    .listas {
+        display: flex;
+        justify-content: space-between ;
+       
+    }
+ 
+.ofertas-tiendas,
+.registro-y-login {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav ul li {
+    margin: 15px 5px;
+
+}
+    nav ul {
+        display: block; 
+    
+
+}
+
+
+
+    .descripcion {
+        display: block ;
+    } 
+
+    main section .item {
+
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        
+    }
+
+    
+.burger-menu {
+
+    display: none;
+
+}
+
+main section .todos-los-articulos {
+
+    display: flex;
+    flex-wrap: wrap
+    ;
+    justify-content: space-between
+}
+
+main section .todos-los-articulos .item {
+    width: 45%;
+    
+}
+
+.camion {
+    right: -10px;
+}
+    
+
+
+}
+/*  VERSION DESKTOP    */
+@media (min-width:1200px) {
+
+    main section .todos-los-articulos {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between
+    }
+    
+    main section .todos-los-articulos .item {
+        width: 23%;
+        
+    }
+    .camion {
+        right: -140px;
+    }
+    main article.item .descripcion{
+
+        display: none;
+    
+    }
+
+    main article.item:hover {
+
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+    main article.item:hover .descripcion {
+        display:block ;
+        
+    }
+
+
+    main article.item:hover i {
+        display:block ;
+        transform: rotateZ(90deg) ;
+        transition-duration: 2s;
+    }
+
+    main section .item {
+
+        box-shadow:none
+        
+    }
+
+    
+
+        
+        
+
+
+    footer section article i:hover  {
+        color:rgb(206, 192, 255) ;
+    }
+
+    
+
+    footer section article i {
+        transition: all 2s;
+    }
+
+    footer section {
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer article{
+        width: 30%;
+    }
+
+
+
+
+
+
+}
+  
+        

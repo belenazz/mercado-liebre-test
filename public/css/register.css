@@ -1,0 +1,132 @@
+main .formulario-registro{
+    width: 90%;
+    margin: auto;
+    margin-top: 35px;
+    font-size: 18px;
+    box-sizing: border-box;
+    max-width: 900px;
+
+}
+
+
+main .create-form {
+    padding: 20px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: dotted 1px #666;
+    max-width: 800px;
+}
+
+.control-form {
+    margin-bottom: 25px;
+    width: 90%;
+}
+
+.control-form label {
+    margin-bottom: 5px;
+    display: block;
+   /* width: 70%; */
+    box-sizing: border-box;
+    
+}
+
+.control-form .label-descriptive, div.categoria-interes .label-title {
+    font-size: 16px;
+    font-weight: 600
+
+}
+
+
+main section form .control {
+    width: 100%;
+    padding: 8px 8px;
+    box-sizing:border-box;
+}
+
+div.perfiles {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    
+}
+
+div.perfil-del-usuario  {
+
+    margin-bottom: 10px;
+    
+} 
+
+div.opt .perfil-usuario{
+    margin-left: 5px;
+    align-self: flex-end;
+}
+
+div.comprador {
+    margin-right: 15px;
+}
+
+
+
+div.categoria-interes{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+}
+div.categoria-interes .label-title{
+    margin-bottom: 15px;
+}
+div.opt {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+div.categoria-interes .etiqueta {
+    width: 40%; 
+    margin-bottom: 0;
+}
+div.categoria-interes .control {
+    width: 10%; ;
+}
+
+
+
+
+
+
+
+div.foto-usuario{
+    margin-top: 7px ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+.botones {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.boton{
+    background-color: #39b54a;
+    border: none;
+    font-size: 18px;
+    color: #ebebeb;
+    padding: 5px 10px;
+    border-radius: 15px;
+    width: 35%;
+    
+
+
+}

@@ -1,0 +1,56 @@
+main .formulario-login{
+    width: 90%;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    max-width: 900px;
+
+}
+
+
+.create-form {
+    padding: 20px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.control-form {
+    margin-bottom: 25px;
+}
+
+.control-form label {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+}
+
+.control-form div {
+    display: flex;
+    flex-wrap: wrap;
+}
+.control {
+    width: 70%;
+    padding: 8px 8px;
+}
+
+span.error {
+    width: 80%;
+}
+
+.boton:hover {
+    background-color: cadetblue;
+}
+
+.boton{
+    background-color: #39b54a;
+    border: none;
+    font-size: 20px;
+    color: #ebebeb;
+    padding: 5px 10px;
+    border-radius: 15px;
+    width: 45%;
+    margin: auto;
+    transition: background-color 1.5s ;
+}
